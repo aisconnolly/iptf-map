@@ -30,3 +30,4 @@ status: draft
 - [Curvy](../vendors/curvy.md)
 - [Peer](../vendors/peer.md)
 - [EY Nightfall](../vendors/ey.md)
+- [TACEO](../vendors/taceo.md)

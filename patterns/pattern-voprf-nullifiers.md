@@ -104,4 +104,4 @@ A KYC issuer gives a user a credential with an internal credential identifier. A
 - [RFC 9497 (OPRF and VOPRF)](https://www.rfc-editor.org/rfc/rfc9497.html)
 - [RFC 9576 (Privacy Pass Architecture)](https://www.rfc-editor.org/rfc/rfc9576.html)
 - [TACEO vOPRF writeup](https://core.taceo.io/articles/taceo-oprf/)
-- [TACEO Merces vendor page](../vendors/taceo-merces.md)
+- [TACEO vendor page](../vendors/taceo.md)

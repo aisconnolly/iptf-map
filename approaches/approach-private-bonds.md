@@ -151,7 +151,7 @@ maturity: prototyped
 context: i2i
 crops: { cr: medium, o: partial, p: partial, s: medium }
 uses_patterns: [pattern-co-snark]
-example_vendors: [taceo-merces]
+example_vendors: [taceo]
 ```
 
 **Summary:** A 3-party MPC committee holds secret-shared balances offchain and produces collaborative Groth16 proofs that the chain verifies.

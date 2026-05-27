@@ -248,7 +248,7 @@ maturity: prototyped
 context: both
 crops: { cr: high, o: yes, p: full, s: high }
 uses_patterns: [pattern-private-mtp-auth, pattern-voprf-nullifiers, pattern-regulatory-disclosure-keys-proofs, pattern-verifiable-attestation, pattern-social-recovery]
-example_vendors: []
+example_vendors: [taceo]
 ```
 
 **Summary:** Holders prove identity to a threshold vOPRF network, yielding a deterministic enrollment nullifier and a Poseidon leaf in an on-chain LeanIMT; post-enrollment, the on-chain root is the sole trust anchor, no issuer contact during verification.

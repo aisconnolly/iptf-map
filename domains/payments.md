@@ -25,7 +25,7 @@ status: draft
 - [Kaleido Paladin](../vendors/paladin.md)
 - [Railgun](../vendors/railgun.md)
 - [Hinkal](../vendors/hinkal.md)
-- [TACEO Merces](../vendors/taceo-merces.md)
+- [TACEO](../vendors/taceo.md)
 - [ZKsync Prividium](../vendors/zksync.md)
 - [Fhenix](../vendors/fhenix.md)
 - [Zama](../vendors/zama.md)

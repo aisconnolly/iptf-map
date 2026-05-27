@@ -30,4 +30,4 @@ status: draft
 - [Miden](../vendors/miden.md)
 - [Fhenix](../vendors/fhenix.md)
 - [Zama](../vendors/zama.md)
-- [TACEO Merces](../vendors/taceo-merces.md)
+- [TACEO](../vendors/taceo.md)

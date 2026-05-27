@@ -122,7 +122,7 @@ maturity: documented
 context: i2i
 crops: { cr: medium, o: partial, p: partial, s: medium }
 uses_patterns: [pattern-co-snark]
-example_vendors: [taceo-merces]
+example_vendors: [taceo]
 ```
 
 **Summary:** Multi-party computation under collaborative SNARKs; secret-shared margin balances; suitable for multi-asset baskets and structured products.

@@ -276,7 +276,7 @@ maturity: prototyped
 context: i2i
 crops: { cr: medium, o: partial, p: partial, s: medium }
 uses_patterns: [pattern-co-snark]
-example_vendors: [taceo-merces]
+example_vendors: [taceo]
 ```
 
 **Summary:** MPC nodes jointly compute transfers under secret-shared balances; co-SNARKs commit a verifiable summary on chain.
