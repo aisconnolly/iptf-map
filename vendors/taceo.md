@@ -21,7 +21,7 @@ state transitions, with no single operator seeing plaintext.
 
 TACEO Merces is an implementation of **Private Shared State (PSS)** for
 confidential token transfers on EVM chains. It combines multiparty
-computation (MPC) with zero-knowledge proofs (Groth16 via co-SNARKs) to hide
+computation (MPC) with zero-knowledge proofs (Groth16 via coSNARKs) to hide
 transfer amounts (confidential mode) or both transfer amounts and party
 addresses (fully private mode, via the TACEO:OMap data structure) while
 maintaining onchain verification. The protocol is published (IACR ePrint
@@ -49,7 +49,7 @@ deployment in progress.
 Three-component system:
 
 1. **Smart Contract:** Holds ERC-20 tokens, maintains balance commitments, queues actions, verifies Groth16 proofs
-2. **MPC Network:** Three computing nodes plus orchestration server; maintains secret-shared balance maps; generates co-SNARK proofs
+2. **MPC Network:** Three computing nodes plus orchestration server; maintains secret-shared balance maps; generates coSNARK proofs
 3. **ZK Circuit:** Noir circuits compiled to Groth16; proves balance validity, non-negativity, and correct state transitions
 
 **Transaction flow:**
@@ -106,7 +106,7 @@ Merces supports two transfer modes, selectable per transaction.
 - **Two-mode privacy:** Confidential and fully private modes selectable per transaction; the latter hides sender, receiver, and amount at the protocol layer
 - **ERC-20 compatible:** Works with existing stablecoin contracts
 - **Batched proving:** reduces per-transaction costs
-- **co-SNARK approach:** distributes trust across MPC nodes
+- **coSNARK approach:** distributes trust across MPC nodes
 - **Noir-based circuits:** Growing ecosystem and tooling
 - **Scoped regulatory disclosure:** Viewing key infrastructure for auditors and entitled parties; the disclosure path is covered by the UC security proof
 - **Composes with external policy providers:** Per-transaction policy attestations (sanctions, KYC) verified onchain via partnership with Predicate
@@ -126,7 +126,7 @@ Merces supports two transfer modes, selectable per transaction.
 TACEO Identity is a privacy-preserving identity stack running on the TACEO
 Network. It combines threshold vOPRF for issuer-independent nullifier
 generation, MPC biometric matching for uniqueness checks without template
-exposure, and collaborative proving via co-SNARKs. The stack is in production
+exposure, and collaborative proving via coSNARKs. The stack is in production
 use, powering uniqueness verification and document-based identity checks for
 large-scale identity systems.
 
@@ -172,9 +172,7 @@ Both solutions share the same trust profile because they share the same
 network. Privacy is `full` (disclosure modes are available but not required
 for participation); Security is `medium` (rides on honest-majority MPC); CR
 is `medium` (participation requires the operator set, no single party can
-exclude a user); OS is `partial` (the Merces paper and the co-snarks
-framework are open under permissive licences; production orchestration
-includes proprietary components).
+exclude a user); OS is `partial` (the Merces paper, confidential x402, and the coSNARKs tooling are open under permissive licences; production orchestration includes proprietary components).
 
 ## Links
 
